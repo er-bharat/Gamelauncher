@@ -1,0 +1,20 @@
+
+[Desktop Entry]
+Actions=edit-games.ini
+Comment=a game launcher for simplicity
+Exec=/home/bharat/Documents/martian/gamelauncher/script.sh
+GenericName=Game launcher
+Icon=/home/bharat/Documents/martian/gamelauncher/icon/game-launcher-icon.png
+Name=Game launcher
+NoDisplay=false
+Path=/home/bharat/Documents/martian/gamelauncher/
+StartupNotify=true
+Terminal=false
+TerminalOptions=konsole -e
+Type=Application
+
+
+
+[Desktop Action edit-games.ini]
+Exec=kate '/home/bharat/Documents/martian/gamelauncher/games.ini'
+Name=Edit games.ini
